@@ -1,0 +1,16 @@
+{
+  "name": "livo-website",
+  "version": "1.0.0",
+  "description": "Livo 漫画推荐官网静态页",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve -s . -l $PORT",
+    "dev": "serve -s . -l 3000"
+  },
+  "keywords": ["livo", "漫画", "静态站"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^14.2.5"
+  }
+}

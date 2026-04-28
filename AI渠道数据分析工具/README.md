@@ -15,6 +15,7 @@
 - `docs/requirements/`：需求文档（PRD）与验收标准
 - `docs/playbook/`：渠道投放经验与打法
 - `docs/decisions/`：关键决策记录（ADR）
+- `../00-团队知识库/`：仓库级共享知识库（跨项目复用）
 
 ## 建议工作流
 

@@ -46,3 +46,20 @@
 - 项目内保留 `docs/knowledge/README.md` 作为入口，指向共享知识库，避免重复维护多份副本。
 - 共享内容放 `00-团队知识库/`，项目私有内容继续放各项目 `docs/`。
 - 建议每周一次把高频问答合并到 `FAQ/FAQ.md` 并更新 `INDEX.md`。
+
+## 8. Git 操作有没有一份可直接照做的完整指引？
+
+- 有，已整理为操作手册：`00-团队知识库/Playbooks/Git与GitHub协作操作手册.md`
+- 包含内容：本地 Git 基础、GitHub 同步、提交更新、拉取项目、常见报错处理。
+
+## 9. 怎么判断我是不是在 Git 仓库里？仓库根目录在哪里？
+
+- 查看仓库根目录：
+  - `git rev-parse --show-toplevel`
+- 查看当前目录：
+  - `pwd`
+- 判断是否在仓库内：
+  - `git status -sb`
+  - 若报错 `not a git repository`，说明当前目录不在 Git 仓库中。
+- 判断是否在同一个仓库：
+  - 只要 `pwd` 是 `git rev-parse --show-toplevel` 返回路径的子路径，就在同一仓库内。
